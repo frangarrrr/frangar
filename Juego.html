@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Autos</title>
+  <link rel="icon" href="iconos/3085411(1).png">
+  <style>
+    body {
+      background-image: url(Imagenes/giphy.gif);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .auto-img {
+      width: 350px;
+      max-width: 90%;
+      margin: 20px;
+      border: 3px solid white;
+      border-radius: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+
+    .auto-img:hover {
+      transform: scale(1.06);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .Inicio {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+      height: 50px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .Inicio ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      gap: 50px;
+      font-size: 26px;
+      margin-bottom: 60px;
+    }
+
+    .Inicio li a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s;
+    }
+
+    .Inicio li a:hover {
+      color: beige;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 50px;
+
+    }
+
+    blockquote {
+      font-size: 40px;
+      margin-bottom: 30px;
+    
+    }
+
+    .autos-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 0 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="Inicio">
+    <ul>
+      <li><a href="file:///C:/Users/frang/OneDrive/Escritorio/Identikit/menu.html">PLAYLIST</a></li>
+      <li><a href="file:///C:/Users/frang/OneDrive/Escritorio/Identikit/index.html">INICIO</a></li>
+      <li><a href="file:///C:/Users/frang/OneDrive/Escritorio/Identikit/Juego.html">JUEGO</a></li>
+    </ul>
+  </nav>
+
+  <h1>¿ADIVINÁ CUÁL TIENE MÁS CABALLOS?</h1>
+
+  <blockquote>Elegí cuál de estos dos autos tiene más potencia</blockquote>
+
+  <div class="autos-container">
+    <a href="Juego correcto.html">
+      <img src="Imagenes/Corvette-final.webp" alt="Auto 1" class="auto-img">
+    </a>
+    <a href="Juego incorrecto.html">
+      <img src="Imagenes/Camaro-final.webp" alt="Auto 2" class="auto-img">
+    </a>
+  </div>
+
+</body>
+</html>
